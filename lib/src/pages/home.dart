@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:nubank_clone/src/colors/colors_utils.dart';
+import 'package:nubank_clone/src/components/accompany_item.dart';
 import 'package:nubank_clone/src/components/bank_account.dart';
+import 'package:nubank_clone/src/components/card_credit.dart';
 import 'package:nubank_clone/src/components/cards.dart';
 import 'package:nubank_clone/src/components/carousel_items.dart';
 import 'package:nubank_clone/src/components/header.dart';
@@ -14,17 +13,17 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        child: SingleChildScrollView(
-          child: Column(
-            children: const [
-              Header(),
-              BankAccount(),
-              CarouselItems(),
-              CardsBank(),
-              ReportsNoticies(),
-            ],
-          ),
+      body: SingleChildScrollView(
+        child: Column(
+          children: const [
+            Header(),
+            BankAccount(),
+            CarouselItems(),
+            CardsBank(),
+            ReportsNoticies(),
+            CardCredit(),
+            AccompanyItem(),
+          ],
         ),
       ),
     );

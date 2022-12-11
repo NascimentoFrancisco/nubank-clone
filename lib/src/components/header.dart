@@ -68,16 +68,14 @@ class Header extends StatelessWidget {
                 ],
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 12, top: 20, bottom: 30),
-              child: Container(
-                child: const Text(
-                  'Olá, Francisco',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 22,
-                    fontWeight: FontWeight.bold
-                  ),
+            const Padding(
+              padding:  EdgeInsets.only(left: 12, top: 20, bottom: 30),
+              child: Text(
+                'Olá, Francisco',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold
                 ),
               ),
             )
