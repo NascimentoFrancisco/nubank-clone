@@ -16,11 +16,11 @@ class CarouselItems extends StatelessWidget {
             
             _MakeItems(title: 'Pagar', icon: Icons.payment),
             
-            _MakeItems(title: 'Pagar', icon: Icons.payment),
+            _MakeItems(title: 'Transferir', icon: Icons.send_to_mobile_sharp),
             
             _MakeItems(title: 'Pagar', icon: Icons.payment),
             
-            _MakeItems(title: 'Pagar', icon: Icons.payment),
+            _MakeItems(title: 'Recarregar', icon: Icons.smartphone),
             
             _MakeItems(title: 'Pagar', icon: Icons.payment),
             

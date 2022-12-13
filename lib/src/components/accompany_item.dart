@@ -37,9 +37,9 @@ class AccompanyItem extends StatelessWidget {
                   Padding(
                     padding: EdgeInsets.all(4.0),
                     child: Icon(
-                      Icons.attach_money_rounded, 
+                      Icons.currency_exchange, 
                       color: Colors.black,
-                      size: 35,
+                      size: 30,
                     ),
                   ),
                   Padding(
